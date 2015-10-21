@@ -1,12 +1,12 @@
-# Ultrasonic-Anemometers
+# Ultrasonic-Anemometers (V 2.2)
 
 ## Description
 
-A LabView-based serial logger vi to write and visualize time-synchronized data from Ultrasonic-Anemometers (up to 32 systems). The system allows defining sensors and parses the data for online visualization. It writes the raw data to files in predefined time intervals. A log file summarizes statistics and errors during data aquisition.
+A LabView-based serial logger vi to write and visualize time-synchronized data from ultrasonic-anemometers (up to 32 systems). The system allows defining sensors and parses their data for online (real-time) visualization. It writes raw data to files in predefined time intervals (usually 30 min). A log file summarizes statistics and errors during data aquisition. I have developed this software at the University of Basel between 1999 and 2005. Since 2008 it has not been further updated anymore.
 
 ![Front-Panel](Example-Front-Panel.png)
 
-This software has been used in several past micrometeorological research projects I have been involved, and is archived here in the latest version. Research projects where this software (or preceeding version) have been used for data samplig included:
+This software has been used in several past micrometeorological research projects I have been involved, and is archived here in the latest version (Version 2.2). Research projects where this software (or preceeding version) have been used for data samplig included:
 
 * Basel Urban Boundary Layer Project 2002 (BUBBLE), sites BSPR, BSPA, ALLS, GRNZ (Rotach et al., 2005)
 * EBEX 2000 (Site 9, Oncley et al., 2007)
@@ -19,11 +19,11 @@ This software has been used in several past micrometeorological research project
 
 ### Directory "Development"
 
-The subdirectory "Development" contains all LabView VIs for the application.
+The subdirectory "Development" contains all LabView VIs that are required to build the application.
 
 ### Directory "Installer"
 
-The directory "Installer" contains a Windows Installer for a stand-alone Version that runs with Lab View Run Time 6.02 (2001).
+The directory "Installer" contains a Windows Installer for a stand-alone Version that runs with Lab View Run Time 6.02.
 
 ## References
 
