@@ -1,8 +1,10 @@
 # Ultrasonic-Anemometers
 
-A LabView-based serial logger vi to write and visualize time-synchronized data from Ultrasonic-Anemometers (up to 32 systems).
+## Description
 
-This software has been used in many past research projects, and is archived here. Research projects where this software has been used for data samplig included:
+A LabView-based serial logger vi to write and visualize time-synchronized data from Ultrasonic-Anemometers (up to 32 systems). The system allows defining sensors and parses the data for online visualization. It writes the raw data to files in predefined time intervals. A log file summarizes statistics and errors during data aquisition.
+
+This software has been used in several past micrometeorological research projects I have been involved, and is archived here in the latest version. Research projects where this software (or preceeding version) have been used for data samplig included:
 
 * Basel Urban Boundary Layer Project 2002 (BUBBLE), sites BSPR, BSPA, ALLS, GRNZ (Rotach et al., 2005)
 * EBEX 2000 (Site 9, Oncley et al., 2007)
@@ -13,9 +15,13 @@ This software has been used in many past research projects, and is archived here
 
 ## Content
 
-Subdirectory "Development" contains all LabView VIs for the application.
+### Directory "Development"
 
-Subdirectory "Installer" contains the Installer for a stand-alone Windows Version.
+The subdirectory "Development" contains all LabView VIs for the application.
+
+### Directory "Installer"
+
+The directory "Installer" contains a Windows Installer for a stand-alone Version that runs with Lab View Run Time 6.02 (2001).
 
 ## References
 
