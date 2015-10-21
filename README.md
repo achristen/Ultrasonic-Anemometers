@@ -4,6 +4,8 @@
 
 A LabView-based serial logger vi to write and visualize time-synchronized data from Ultrasonic-Anemometers (up to 32 systems). The system allows defining sensors and parses the data for online visualization. It writes the raw data to files in predefined time intervals. A log file summarizes statistics and errors during data aquisition.
 
+![Front-Panel](Example-Front-Panel.png)
+
 This software has been used in several past micrometeorological research projects I have been involved, and is archived here in the latest version. Research projects where this software (or preceeding version) have been used for data samplig included:
 
 * Basel Urban Boundary Layer Project 2002 (BUBBLE), sites BSPR, BSPA, ALLS, GRNZ (Rotach et al., 2005)
