@@ -2,7 +2,7 @@
 
 A LabView-based serial logger vi to write and visualize time-synchronized data from Ultrasonic-Anemometers (up to 32 systems).
 
-This software has been used in many past research projects, and is archived here. Research projects with data sampled included:
+This software has been used in many past research projects, and is archived here. Research projects where this software has been used for data samplig included:
 
 * Basel Urban Boundary Layer Project 2002 (BUBBLE), sites BSPR, BSPA, ALLS, GRNZ (Rotach et al., 2005)
 * EBEX 2000 (Site 9, Oncley et al., 2007)
